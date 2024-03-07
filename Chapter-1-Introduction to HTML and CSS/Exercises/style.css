@@ -1,0 +1,69 @@
+@font-face{
+    font-family: myfont;
+    src:url(font\ style\ 3.ttf)
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(font\ style\ 4.ttf);
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-family:myfont;
+}
+
+h2{
+    font-family: myfont;
+}
+
+h3{
+    font-family: myfont;
+}
+img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+li{
+    font-family:monospace;
+}
+
+p1{
+    font-family: monospace;
+}
+
+header{
+    background-color: burlywood;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+h4{
+    font-family: myfont;
+}
+
+
+
+
+
+
+ 
