@@ -1,0 +1,148 @@
+@font-face {
+    font-family: myfont;
+    src: url(Monitor.ttf);
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(Cinzel-Regular.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(type\ writer.TTF);
+}
+
+h1{
+    text-align: center;
+    background-color:  #f3d849;;
+    font-family: myfont;
+    font-size: 45px;
+    color: black;
+}
+
+h2{
+    font-family: myfont3;
+    text-align: left;
+    background-color: #f3d849;
+
+}
+
+h3{
+    font-family: myfont3;
+    text-align: left;
+    background-color: #f3d849;
+}
+
+h4{
+    font-family: myfont3;
+    font-size: 20px;
+    background-color: #f3d849;
+    text-align: center;
+}
+
+p1{
+    font-family: myfont2;
+
+}
+
+p3{
+    font-family: myfont2;
+}
+
+p4{
+    font-family: myfont2;
+}
+
+ul2{
+    font-family: myfont2;
+}
+
+td{
+    font-family: myfont2;
+}
+
+th{
+    font-family: myfont3;
+}
+
+body{
+    background-color: lightblue;
+    color: black;
+}
+
+.nav{
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav a{
+    display:block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:aliceblue;
+
+}
+
+.button{
+    background-color:#f3d849;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.button:hover{
+    background-color:rgb(165, 165, 32);
+}
+
+table{
+    border-collapse:separate;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: #f3d849;
+}
+
+.review-box{
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border: #f3d849;
+}
+
+.Overview-box{
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.keyinfo-box{
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 2);
+}
+    
