@@ -1,0 +1,69 @@
+@font-face {
+    font-family: myfont;
+    src: url(Cinzel-Regular.ttf);
+}
+
+
+
+img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 46px;
+}
+
+h1{
+    background-color: goldenrod;
+    font-family: myfont;
+    text-align: center;
+    padding: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+.por3{
+    filter: sepia(70%);
+}
+
+.por2{
+    filter:invert(10%);
+}
+.por1{
+    filter:opacity(50%) ;
+}
+
+P{
+    color: beige;
+}
+
+.Pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to fill the viewport */
+}
+
+.IMAGES{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 300px; 
+    height: auto;
+    margin: 10px;
+    padding: 46px;
+}
+
+figcaption{
+    color: azure;
+    text-align: center;
+    margin-top: 10px;
+}
+
+figure{
+    padding-left: 10px;
+}
