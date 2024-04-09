@@ -1,0 +1,70 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Background\ image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gold;
+}
+
+.soundboard{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:30px
+}
+
+.soundboard > div{
+    text-align: center;
+    padding: 5px;
+    margin:0;
+
+}
+
+.soundboard > div > button{
+    background-image:radial-gradient(circle at center left, rgb(0, 21, 255),rgb(255, 0, 0));
+    opacity: 70%;
+    border-radius: 30px;
+    width:300px;
+    padding: 10px;
+    margin:10px;
+    height:120px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.soundboard > div :hover{
+    background-image:radial-gradient(circle at center right, rgb(255, 242, 0),rgb(0, 0, 0));
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+audio{
+    display: none;
+}
+
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: mon;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+    font-family: mon;
+    font-size: 20px;
+}
+
+#NO{
+    color: rgb(198, 205, 241);
+    font-size: 20px;
+    font-family: mon;
+}

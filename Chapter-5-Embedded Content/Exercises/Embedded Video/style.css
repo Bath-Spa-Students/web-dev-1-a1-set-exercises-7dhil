@@ -1,0 +1,39 @@
+/* STYLING THE BODY*/
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+  }
+
+/*VIDEO POSTER*/
+  video[poster]{
+    height: 100vh;
+    width: 100vw;
+  }
+
+/*SIZE OF THE HTML FILE*/
+  html {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+  }
+
+/* SIZE OF THE VIDEO CONTAINER*/
+  .video-container {
+    max-width: 81%; 
+    max-height: 81%; 
+  }
+
+/*SIZE OF THE VIDEO*/
+  video {
+    width: 100%;
+    height: 100%;
+    right: 20%;
+    object-fit: contain;
+  }
