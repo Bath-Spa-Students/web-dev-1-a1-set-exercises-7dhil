@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>HTML & CSS REFERENCE GUIDE</h1>
+</header>
+<footer>
+    All Rights Reserved 2024 &copy;
+</footer>
+<body>
+    <section>
+        <h2>HTML STRUCTURAL TAGS</h2>
+        <div>
+            <h1>&lt;head&gt;</h1>
+            <p>The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.</p>
+            <pre><code>
+                &lt;head&gt;
+                The head content goes here
+                &lt;/head&gt;
+            </pre></code>
+        </div>  
+    </section>
+    <section>
+        <h1>&lt;body&gt;</h1>
+        <p>The &lt;body&gt; tag defines the document's body. The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. Note: There can only be one &lt;body&gt; element in an HTML document.</p>
+        <pre><code>
+            &lt;body&gt;
+                &lt;h1&gt;Hello world!&lt;h1&gt;
+                &lt;p&gt;&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt;&lt;/p&gt;
+            &lt;/body&gt;
+        </pre></code>
+        </div>
+    </section>
+    <section>
+        <h1>&lt;title&gt;</h1>
+        <p>The &lt;title&gt; is an HTML code tag that allows you to give a web page a title. This title can be found in the browser title bar, as well as in the search engine results pages (SERP).</p>
+        <pre><code>
+            &lt;title&gt;
+                WEB DEVELOPMENT
+            &lt;/title&gt; 
+        </pre></code>
+        </div>
+    </section>
+    <section>
+        <h1>&lt;html&gt;</h1>
+        <p> It is placed at the beginning of an HTML document and tells browsers that the page has HTML code so they can read it that way. Following the syntax of the language, the closing tag &lt;/html&gt; will be the last element of the document.</p>
+        <pre><code>
+            &lt;DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;/html&gt;
+        </pre></code>
+    </div>
+    </section>
+    <section>
+        <h1>&lt;div&gt;</h1>
+        <p> The &lt;div&gt;; tag defines a division or a section in an HTML document. The &lt;div&gt; tag is used as a container for HTML elements</p>
+        <pre><code>
+            &lt;div class="myDiv"&gt;
+                &lt;h2>This is a heading in a div element&gt;
+                &lt;This is some text in a div element.&gt;
+              &lt;/div&gt;
+        </pre></code>      
+    </section>
+    </div>
+    <section>
+        <div>
+        <h1>Bold Tags(&lt;b&gt;)</h1>
+        <p>Bold tag (&lt;b&gt;) is the HTML element that enables text formatting. This tag defines bold text on a given page without giving any additional importance to the indicated content </p>
+        <pre><code>
+            &lt;b&gt;Bathspa University&lt;/b&gt;
+        </code></pre>
+        </div>
+    </section>
+    <div>
+        <section>
+            <h1>Underline Tags(&lt;u&gt;)</h1>
+            <p>In HTML the title tag is used to specify the title of a document, and the &lt;u&gt;g is used to underline text.</p>
+            <pre><code>
+                &lt;u&gt;BSU RAK&lt;/u&gt;
+            </code></pre>
+        </section>
+    </div>
+    <section>
+        <div>
+            <h1>Italic Tags(&lt;i&gt;)</h1>
+            <p>To make text italics in HTML, use the HTML tag &lt;em&gt; or &lt;i&gt; and close the tag with &lt;/em&gt; or &lt;/i&gt; </p>
+            <pre><code>
+                &lt;i&gt;Bathspa University&lt;/i&gt;
+            </code></pre>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>&lt;section&gt;</h1>
+            <p>The &lt;section&gt; tag defines a section in a document.</p>
+            <pre><code>
+                &lt;section&gt;
+                    &lt;h2&gt;WWF History&lt;/h2&gt;
+                    &lt;p&gt;The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.&lt;/p&gt;
+                &lt;/section&gt;        
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>&lt;div&gt;</h1>
+            <p>The &lt;div&gt; tag is known as the Division tag. The div tag is used in HTML to make divisions of content in the web page like (text, images, header, footer, navigation bar, etc).</p>
+            <pre><code>
+                BSU&lt;div&gt;I am a div&lt;/div&gt;RAK
+            </code></pre>
+        </div>
+    </section>
+    <section class="CSS">
+        <h2>CSS Tags</h2>
+        <div>
+            <h3>color</h3>
+            <p>It's used to give color to the html</p>
+            <pre><code class="clr">
+                .container{
+                    color: black;
+                }
+            </code></pre>
+        </div>
+        <div>
+            <h3>box-shadow</h3>
+            <p>It's used to add shadow to a shape in html</p>
+            <pre><code class="shadow">
+                .shadow{
+                    box-shadow: 2px 2px 5px red;
+                }
+            </code></pre>
+        </div>
+        <div class="b-image">
+            <h3>border-image</h3>
+            <p>This is used to add image as a border-image</p>
+            <pre><code>
+                .b-image{
+                    border: 10px solid transparent;
+                    padding:15px;
+                    border-image:url(border.png) 20 round;
+                }
+
+            </code></pre>
+        </div>
+        <div>
+            <h3>padding</h3>
+            <p>Used For Creating A Space Within An Element.</p>
+            <pre><code>
+                .container{
+   
+                    padding:30px;
+                }
+            </code></pre>
+        </div>
+        <div class="bgm">
+            <h3>Background-color</h3>
+            <p> It's Used to change the background color of the page or element.</p>
+            <pre><code>
+                body{
+                    Background-color : aqua;
+                }
+            </div>
+      
+        <class="bg-img">
+            <h3>backround-image</h3>
+            <p>This is used to add background image </p>
+            <pre><code>
+                .bg-img{
+                    background-image: linear-gradient(to bottom right, red, yellow);
+                }
+            </code></pre>
+        </div>
+    </section>
+    <div class="fontstyle">
+        <h3>font-family</h3>
+        <p> It's used to change the font of the page, element or division.</p>
+        <pre><code>
+            .fontstyle{
+                font-family: lobster;
+            }
+        </code></pre>
+    </code></pre>
+</div>
+<div class="corner">
+    <h3>border-radius</h3>
+    <p>it's used to change the radius of a box or element</p>
+    <pre><code>
+        .corner{
+            border-radius: 10px;
+        }
+    </code></pre>
+</div>
+
+    </div>
+</body>
+</html>

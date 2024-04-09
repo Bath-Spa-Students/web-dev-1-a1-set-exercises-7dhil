@@ -1,0 +1,16 @@
+pre{
+    overflow-x: auto;
+    background-color:black;
+    color: white;
+    padding: 10px;
+}
+
+body{
+    background-color:lightblue;
+    color: black;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
